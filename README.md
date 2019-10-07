@@ -1,1 +1,3 @@
-# QopperSDK_Test1QopperSDK_Test1
+## Usage
+
+pod 'QopperSDK_Test1'
