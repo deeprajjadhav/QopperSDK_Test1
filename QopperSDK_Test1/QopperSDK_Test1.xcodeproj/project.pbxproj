@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04207E18234B4398005BBE3B /* QopperSDK_Test1.h in Headers */ = {isa = PBXBuildFile; fileRef = 04207E16234B4398005BBE3B /* QopperSDK_Test1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04207E21234B43CA005BBE3B /* BaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207E1F234B43CA005BBE3B /* BaseURL.swift */; };
+		04207E22234B43CA005BBE3B /* Webservicecall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207E20234B43CA005BBE3B /* Webservicecall.swift */; };
+		04207E3B234B43CF005BBE3B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207E26234B43CF005BBE3B /* Alert.swift */; };
+		04207E3C234B43CF005BBE3B /* QAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207E27234B43CF005BBE3B /* QAlert.swift */; };
+		04207E3D234B43CF005BBE3B /* QSendAssetAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207E29234B43CF005BBE3B /* QSendAssetAlerts.swift */; };
+		04207E3E234B43CF005BBE3B /* GetAssetStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207E2B234B43CF005BBE3B /* GetAssetStatus.swift */; };
+		04207E3F234B43CF005BBE3B /* QAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207E2C234B43CF005BBE3B /* QAsset.swift */; };
+		04207E40234B43CF005BBE3B /* RegisterAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207E2D234B43CF005BBE3B /* RegisterAsset.swift */; };
+		04207E41234B43CF005BBE3B /* QMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207E30234B43CF005BBE3B /* QMetrics.swift */; };
+		04207E42234B43CF005BBE3B /* QSendAssetMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207E32234B43CF005BBE3B /* QSendAssetMetrics.swift */; };
+		04207E43234B43CF005BBE3B /* QPropertie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207E35234B43CF005BBE3B /* QPropertie.swift */; };
+		04207E44234B43CF005BBE3B /* QValidateProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207E36234B43CF005BBE3B /* QValidateProperties.swift */; };
+		04207E45234B43CF005BBE3B /* QSendAssetProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207E38234B43CF005BBE3B /* QSendAssetProperties.swift */; };
+		04207E46234B43CF005BBE3B /* Qopper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207E39234B43CF005BBE3B /* Qopper.swift */; };
+		04207E47234B43CF005BBE3B /* SendHeartBeats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207E3A234B43CF005BBE3B /* SendHeartBeats.swift */; };
+		04207E4A234B43D4005BBE3B /* QAssetsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207E49234B43D4005BBE3B /* QAssetsProtocol.swift */; };
+		04207E4D234B43DB005BBE3B /* QAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 04207E4C234B43DB005BBE3B /* QAssets.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04207E13234B4398005BBE3B /* QopperSDK_Test1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QopperSDK_Test1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04207E16234B4398005BBE3B /* QopperSDK_Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QopperSDK_Test1.h; sourceTree = "<group>"; };
+		04207E17234B4398005BBE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04207E1F234B43CA005BBE3B /* BaseURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseURL.swift; sourceTree = "<group>"; };
+		04207E20234B43CA005BBE3B /* Webservicecall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservicecall.swift; sourceTree = "<group>"; };
+		04207E26234B43CF005BBE3B /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		04207E27234B43CF005BBE3B /* QAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QAlert.swift; sourceTree = "<group>"; };
+		04207E29234B43CF005BBE3B /* QSendAssetAlerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSendAssetAlerts.swift; sourceTree = "<group>"; };
+		04207E2B234B43CF005BBE3B /* GetAssetStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAssetStatus.swift; sourceTree = "<group>"; };
+		04207E2C234B43CF005BBE3B /* QAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QAsset.swift; sourceTree = "<group>"; };
+		04207E2D234B43CF005BBE3B /* RegisterAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterAsset.swift; sourceTree = "<group>"; };
+		04207E30234B43CF005BBE3B /* QMetrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QMetrics.swift; sourceTree = "<group>"; };
+		04207E32234B43CF005BBE3B /* QSendAssetMetrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSendAssetMetrics.swift; sourceTree = "<group>"; };
+		04207E35234B43CF005BBE3B /* QPropertie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QPropertie.swift; sourceTree = "<group>"; };
+		04207E36234B43CF005BBE3B /* QValidateProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QValidateProperties.swift; sourceTree = "<group>"; };
+		04207E38234B43CF005BBE3B /* QSendAssetProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSendAssetProperties.swift; sourceTree = "<group>"; };
+		04207E39234B43CF005BBE3B /* Qopper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Qopper.swift; sourceTree = "<group>"; };
+		04207E3A234B43CF005BBE3B /* SendHeartBeats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendHeartBeats.swift; sourceTree = "<group>"; };
+		04207E49234B43D4005BBE3B /* QAssetsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QAssetsProtocol.swift; sourceTree = "<group>"; };
+		04207E4C234B43DB005BBE3B /* QAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAssets.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04207E10234B4398005BBE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04207E09234B4398005BBE3B = {
+			isa = PBXGroup;
+			children = (
+				04207E15234B4398005BBE3B /* QopperSDK_Test1 */,
+				04207E14234B4398005BBE3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04207E14234B4398005BBE3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04207E13234B4398005BBE3B /* QopperSDK_Test1.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04207E15234B4398005BBE3B /* QopperSDK_Test1 */ = {
+			isa = PBXGroup;
+			children = (
+				04207E4B234B43DB005BBE3B /* Support Files */,
+				04207E48234B43D4005BBE3B /* Protocols */,
+				04207E23234B43CF005BBE3B /* Internal */,
+				04207E1E234B43CA005BBE3B /* API Call */,
+				04207E17234B4398005BBE3B /* Info.plist */,
+			);
+			path = QopperSDK_Test1;
+			sourceTree = "<group>";
+		};
+		04207E1E234B43CA005BBE3B /* API Call */ = {
+			isa = PBXGroup;
+			children = (
+				04207E1F234B43CA005BBE3B /* BaseURL.swift */,
+				04207E20234B43CA005BBE3B /* Webservicecall.swift */,
+			);
+			path = "API Call";
+			sourceTree = "<group>";
+		};
+		04207E23234B43CF005BBE3B /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				04207E24234B43CF005BBE3B /* Alerts */,
+				04207E2A234B43CF005BBE3B /* Asset */,
+				04207E2E234B43CF005BBE3B /* Metrics */,
+				04207E33234B43CF005BBE3B /* Properties */,
+				04207E39234B43CF005BBE3B /* Qopper.swift */,
+				04207E3A234B43CF005BBE3B /* SendHeartBeats.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		04207E24234B43CF005BBE3B /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				04207E25234B43CF005BBE3B /* Model */,
+				04207E28234B43CF005BBE3B /* Service */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		04207E25234B43CF005BBE3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04207E26234B43CF005BBE3B /* Alert.swift */,
+				04207E27234B43CF005BBE3B /* QAlert.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04207E28234B43CF005BBE3B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				04207E29234B43CF005BBE3B /* QSendAssetAlerts.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		04207E2A234B43CF005BBE3B /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				04207E2B234B43CF005BBE3B /* GetAssetStatus.swift */,
+				04207E2C234B43CF005BBE3B /* QAsset.swift */,
+				04207E2D234B43CF005BBE3B /* RegisterAsset.swift */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		04207E2E234B43CF005BBE3B /* Metrics */ = {
+			isa = PBXGroup;
+			children = (
+				04207E2F234B43CF005BBE3B /* Model */,
+				04207E31234B43CF005BBE3B /* Service */,
+			);
+			path = Metrics;
+			sourceTree = "<group>";
+		};
+		04207E2F234B43CF005BBE3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04207E30234B43CF005BBE3B /* QMetrics.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04207E31234B43CF005BBE3B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				04207E32234B43CF005BBE3B /* QSendAssetMetrics.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		04207E33234B43CF005BBE3B /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				04207E34234B43CF005BBE3B /* Model */,
+				04207E36234B43CF005BBE3B /* QValidateProperties.swift */,
+				04207E37234B43CF005BBE3B /* Service */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		04207E34234B43CF005BBE3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04207E35234B43CF005BBE3B /* QPropertie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04207E37234B43CF005BBE3B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				04207E38234B43CF005BBE3B /* QSendAssetProperties.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		04207E48234B43D4005BBE3B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				04207E49234B43D4005BBE3B /* QAssetsProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		04207E4B234B43DB005BBE3B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04207E16234B4398005BBE3B /* QopperSDK_Test1.h */,
+				04207E4C234B43DB005BBE3B /* QAssets.h */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04207E0E234B4398005BBE3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04207E18234B4398005BBE3B /* QopperSDK_Test1.h in Headers */,
+				04207E4D234B43DB005BBE3B /* QAssets.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04207E12234B4398005BBE3B /* QopperSDK_Test1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04207E1B234B4398005BBE3B /* Build configuration list for PBXNativeTarget "QopperSDK_Test1" */;
+			buildPhases = (
+				04207E0E234B4398005BBE3B /* Headers */,
+				04207E0F234B4398005BBE3B /* Sources */,
+				04207E10234B4398005BBE3B /* Frameworks */,
+				04207E11234B4398005BBE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QopperSDK_Test1;
+			productName = QopperSDK_Test1;
+			productReference = 04207E13234B4398005BBE3B /* QopperSDK_Test1.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04207E0A234B4398005BBE3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					04207E12234B4398005BBE3B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 04207E0D234B4398005BBE3B /* Build configuration list for PBXProject "QopperSDK_Test1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04207E09234B4398005BBE3B;
+			productRefGroup = 04207E14234B4398005BBE3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04207E12234B4398005BBE3B /* QopperSDK_Test1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04207E11234B4398005BBE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04207E0F234B4398005BBE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04207E46234B43CF005BBE3B /* Qopper.swift in Sources */,
+				04207E44234B43CF005BBE3B /* QValidateProperties.swift in Sources */,
+				04207E3C234B43CF005BBE3B /* QAlert.swift in Sources */,
+				04207E3B234B43CF005BBE3B /* Alert.swift in Sources */,
+				04207E42234B43CF005BBE3B /* QSendAssetMetrics.swift in Sources */,
+				04207E45234B43CF005BBE3B /* QSendAssetProperties.swift in Sources */,
+				04207E4A234B43D4005BBE3B /* QAssetsProtocol.swift in Sources */,
+				04207E3F234B43CF005BBE3B /* QAsset.swift in Sources */,
+				04207E40234B43CF005BBE3B /* RegisterAsset.swift in Sources */,
+				04207E22234B43CA005BBE3B /* Webservicecall.swift in Sources */,
+				04207E43234B43CF005BBE3B /* QPropertie.swift in Sources */,
+				04207E3E234B43CF005BBE3B /* GetAssetStatus.swift in Sources */,
+				04207E47234B43CF005BBE3B /* SendHeartBeats.swift in Sources */,
+				04207E41234B43CF005BBE3B /* QMetrics.swift in Sources */,
+				04207E3D234B43CF005BBE3B /* QSendAssetAlerts.swift in Sources */,
+				04207E21234B43CA005BBE3B /* BaseURL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04207E19234B4398005BBE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		04207E1A234B4398005BBE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		04207E1C234B4398005BBE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QopperSDK_Test1/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.perscitus.QopperSDK-Test1";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04207E1D234B4398005BBE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QopperSDK_Test1/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.perscitus.QopperSDK-Test1";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04207E0D234B4398005BBE3B /* Build configuration list for PBXProject "QopperSDK_Test1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04207E19234B4398005BBE3B /* Debug */,
+				04207E1A234B4398005BBE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04207E1B234B4398005BBE3B /* Build configuration list for PBXNativeTarget "QopperSDK_Test1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04207E1C234B4398005BBE3B /* Debug */,
+				04207E1D234B4398005BBE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04207E0A234B4398005BBE3B /* Project object */;
+}
